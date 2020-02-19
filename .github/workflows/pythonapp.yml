@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5, 3.6, 3.7]
+        python-version: [3.5, 3.6]
         tensorflow-version: [1.12.0, 1.13.2, 1.14.0]
 
     steps:
