@@ -1,4 +1,4 @@
-name: Python application
+name: Test iNNvestigate for TF1
 
 on: [push]
 
@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5, 3.6]
-        tensorflow-version: [1.12.0, 1.13.2, 1.14.0]
+        python-version: [3.6]
+        tensorflow-version: [1.12.0, 1.13.2]
 
     steps:
     - uses: actions/checkout@v2
